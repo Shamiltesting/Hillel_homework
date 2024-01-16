@@ -1,2 +1,5 @@
 console.log('number' + 3 + 3);
 number33
+
+console.log(null + 3);
+3
