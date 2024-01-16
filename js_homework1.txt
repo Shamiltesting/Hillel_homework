@@ -6,3 +6,6 @@ console.log(null + 3);
 
 console.log(5 && "qwerty");
 qwerty
+
+console.log(+ '40' + + '2' + "hillel");
+"42hillel"
