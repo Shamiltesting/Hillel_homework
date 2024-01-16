@@ -3,3 +3,6 @@ number33
 
 console.log(null + 3);
 3
+
+console.log(5 && "qwerty");
+qwerty
