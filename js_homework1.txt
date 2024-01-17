@@ -9,3 +9,6 @@ qwerty
 
 console.log(+ '40' + + '2' + "hillel");
 "42hillel"
+
+console.log('10' - 5 === 6);
+false
