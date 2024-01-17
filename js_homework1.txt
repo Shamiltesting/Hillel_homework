@@ -48,3 +48,6 @@ console.log(0 || '0' && 1);
 
 console.log((+null == false) < 1); 
 false 
+
+console.log((false && true || true); 
+true 
