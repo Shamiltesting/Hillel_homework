@@ -54,3 +54,6 @@ true
 
 console.log((false && (true || true)); 
 false
+
+console.log((+null == false) < 1 ** 5); 
+false
