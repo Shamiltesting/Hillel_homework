@@ -21,3 +21,6 @@ Nan
 
 console.log('4' - 3);
 1
+
+console.log('6' + 3 ** 0);
+61
