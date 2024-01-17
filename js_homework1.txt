@@ -15,3 +15,6 @@ false
 
 console.log(true + false);
 1
+
+console.log('4px' - 3);
+Nan
