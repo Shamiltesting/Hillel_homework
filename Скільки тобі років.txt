@@ -1,0 +1,14 @@
+let name = prompt("Вкажіть ваш вік");
+let age1 = "рік";
+let age2 = "роки";
+let age3 = "років"
+
+if (Number(name) === 1) {
+        console.log(Number(name), age1);
+} else if (Number(name) === 2 || Number(name) < 5) {
+
+ console.log (Number(name), age2);
+} else {
+
+    console.log (Number(name), age3);
+   }
