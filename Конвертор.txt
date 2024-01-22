@@ -1,0 +1,17 @@
+let quantity = 5;
+let unit = " km";
+let distanceKM =  quantity + unit; 
+if (distanceKM === "5 km") {
+    let distanceM = "5000 m";
+    let resultOfDistance = "5 km its 5000 m"
+}  
+switch("5 km its 5000 m") {
+    case 5:
+        console.log("просто цифра") ;
+        break;
+    case " km":
+        console.log("еденица измерения");
+        break;
+    case "5 km its 5000 m":
+        console.log("5 км это 5000 метров");        
+}
