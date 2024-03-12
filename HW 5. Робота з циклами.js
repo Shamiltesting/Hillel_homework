@@ -10,16 +10,17 @@ let triangle = function(hight, symbol) {
     }
     }
     triangle(8, "*"); 
-    
+
 
 //Задача №2:
 
-label: for(i = 0; i <= 100; i++) {
-    if (i % 3) {
-        console.log("Its should appaer digits which not divisible by 3:  " + i);
-        continue label;  
-     }
+    let result = 0 ;
+    for(i = 0; i <= 100; i++) {
+        if(i % 3 && i !== 0) {
+            result += i;
+        }
     }
+    console.log(result);
 
 
 //Задача №3   
@@ -39,3 +40,5 @@ function pow(x, y) {
     }
 }
 console.log(pow(4, 2));
+
+
